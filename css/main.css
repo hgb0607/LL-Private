@@ -30,6 +30,8 @@ body{
 	
 .header_index{
 	height:150px;
+	position: fixed;
+	top: 0px;
 	}
 	
 .header_other{
