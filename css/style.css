@@ -1,0 +1,127 @@
+@charset "utf-8";
+/* style-CSS */
+
+
+#container{ 
+	margin:0 auto; 
+	width:1024px; 
+	border:0px;
+	color:#FFFFFF} 
+
+
+/*导航栏*/
+#header{ 
+	margin:0 auto; 
+	width:1024px;  
+	border:0px; 
+	padding:20px 0 0 0;
+	} 
+	
+.header_index{
+	height:110px;
+	}
+	
+.header_other{
+	height:50px;
+	}	
+	
+#div_l{
+	float:left;
+	bottom:0;
+	}
+
+#div_r{
+	float:right;
+	bottom:0;
+	}
+
+.div_l_index{
+	width:492px;
+	height:110px;
+}
+
+.div_r_index{
+	width:532;
+	padding:64px 0 0 0;
+}
+
+.div_l_other{
+	width:400px;
+	height:50px;
+}
+
+.div_r_other{
+	width:600px;
+	height:50px;
+}
+
+/*菜单动态*/
+.menu_pic{
+	float:left;
+	width:128px;
+	height:37px;
+	padding:9px 0 0 0;
+	}
+
+.menu_pic:hover{
+	float:left;
+	width:128px;
+	height:37px;
+	padding:0 0 9px 0;
+	}
+/*-------*/
+
+
+
+/*主体*/
+#contents{
+	margin:0 auto;
+	width:1024px;
+	height:670px;
+	padding:13px 0 0 0;
+	border:10px #FF0004;
+	}
+
+.div_c1{
+	width:1024px;
+	height:100px;
+	background:#FF0004;
+	}
+	
+.div_c2{
+	width:1024px;
+	height:520px;
+	padding:10px 0 0 0;
+	/*background:#3A00FF;*/
+	}
+	
+	
+.div_c2_1{
+	width:391px;
+	height:520px;
+	float:left;
+	background:#1AFF00;
+	}
+	
+
+.div_c2_2{
+	width:633px;
+	height:520px;
+	float:left;
+	background:#FFED00;
+	}
+	
+#footer{
+	width:1024px;
+	height:40px;
+	padding:10px 0 10px 0;
+	/*background:#FF00D6;*/
+	}
+	
+#copyright {
+	text-align:center;
+	width:1024px;
+	color:#383838;
+	font-size:16px;
+	line-height:1.2;
+	}
