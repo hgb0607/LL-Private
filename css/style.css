@@ -1,4 +1,4 @@
-@charset "utf-8";
+﻿@charset "utf-8";
 /* style-CSS */
 
 
@@ -97,17 +97,19 @@
 	
 	
 .div_c2_1{
-	width:391px;
-	height:520px;
+	width:381px;
+	height:510px;
 	float:left;
+	padding:5px 5px 5px 5px;
 	background:#1AFF00;
 	}
 	
 
 .div_c2_2{
-	width:633px;
-	height:520px;
+	width:623px;
+	height:510px;
 	float:left;
+	padding:5px 5px 5px 5px;
 	background:#FFED00;
 	}
 	
