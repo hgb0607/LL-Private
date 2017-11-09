@@ -102,7 +102,7 @@
 	height:510px;
 	float:left;
 	margin:5px 5px 5px 5px;
-	background:#1AFF00;
+	background:rgba(255,255,255,0.3);
 	}
 	
 
@@ -111,7 +111,7 @@
 	height:510px;
 	float:left;
 	margin:5px 5px 5px 5px;
-	background:#FFED00;
+	background:rgba(255,255,255,0.3);
 	}
 	
 #footer{
