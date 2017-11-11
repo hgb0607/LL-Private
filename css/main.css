@@ -21,6 +21,13 @@ a:hover{
 	text-decoration: underline;
 	}
 	
+hr{
+	height:2px;
+	border:none;
+	background-color:rgba(0,0,0,0.75);
+	}
+	
+	
 #background{
 	margin:0 auto;
 	width:1280px;
@@ -28,6 +35,7 @@ a:hover{
 	background-repeat:no-repeat;
 	background-position:center top;
 	}
+	
 	
 canvas {
     padding:0;
