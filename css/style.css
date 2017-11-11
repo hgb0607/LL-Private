@@ -3,10 +3,12 @@
 
 
 #container{ 
+	text-align:center;
 	margin:0 auto; 
 	width:1024px; 
 	border:0px;
-	color:#FFFFFF} 
+	color:#FFFFFF;
+	} 
 
 
 /*导航栏*/
