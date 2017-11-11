@@ -8,8 +8,7 @@
 
 body{
 	text-align:center;
-	background-repeat:no-repeat;
-	background-position:center top;
+
 	}
 
 a{
@@ -22,11 +21,12 @@ a:hover{
 	text-decoration: underline;
 	}
 	
-#main{
-	margin:0 auto; 
-	text-align:center;
+#background{
+	margin:0 auto;
 	width:1280px;
-	height:853px;
+	height:900px;
+	background-repeat:no-repeat;
+	background-position:center top;
 	}
 	
 canvas {
@@ -34,7 +34,7 @@ canvas {
     margin:0;
     opacity:0.25;
 	position:absolute;
-	z-index:-2;
+	z-index:-1;
 	}
 
 #fx{
