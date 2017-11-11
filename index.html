@@ -5,6 +5,13 @@
 <title>Love Live 个人兴趣收集站</title>
 <link href="css/main.css" rel="stylesheet" type="text/css">
 <link href="css/style.css" rel="stylesheet" type="text/css">
+<link href="css/pic.css" rel="stylesheet" type="text/css">
+<link href="css/luara.css" rel="stylesheet" type="text/css">
+
+    <script src="js/jquery-1.8.3.min.js"></script>
+    <!--Luara js文件-->
+    <script src="js/jquery.luara.0.0.1.min.js"></script>
+
 </head>
 
 <body>
@@ -44,13 +51,52 @@
 
 <!--     主要内容        -->
 <div id="contents">
+<!--     主体C1     -->
+<div class="div_c1">
+<div class="div_c1_1"></div>
 
-<div class="div_c1"></div>
-<div class="div_c2">
-<div class="div_c2_1"> </div>
-<div class="div_c2_2"></div>
+<!--     成员图片轮播    -->
+<div class="div_c1_2  div_pic_display display"> 
+       <ul>
+            <li><img src="img/member/member_honoka.png" alt="1"/></li>
+            <li><img src="img/member/member_kotori.png" alt="2"/></li>
+            <li><img src="img/member/member_umi.png" alt="3"/></li>
+            <li><img src="img/member/member_rin.png" alt="4"/></li>
+            <li><img src="img/member/member_maki.png" alt="5"/></li>
+            <li><img src="img/member/member_hanayo.png" alt="6"/></li>
+            <li><img src="img/member/member_nozomi.png" alt="7"/></li>
+            <li><img src="img/member/member_eli.png" alt="8"/></li>
+            <li><img src="img/member/member_nico.png" alt="9"/></li>
+        </ul>
+        <ol>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ol>
+</div>
+<script>
+    $(function(){
+        <!--调用Luara示例-->
+        $(".display").luara({width:"276",height:"519",interval:4000,selected:"seleted"});
+
+    });
+</script>
+<!--  成员图片轮播  end  -->
 
 </div>
+<!--     主体C1 end -->
+
+
+<!--     主体C2     -->
+<div class="div_c2"></div>
+<!--     主体C2 end -->
+
 </div>
 <!--     主要内容   end  -->
 
@@ -73,8 +119,9 @@
 </div>
 
 
+</body>
 
-
+<!--以下为落樱特效代码-->
 
 <!-- sakura shader -->
 <script id="sakura_point_vsh" type="x-shader/x_vertex">
@@ -364,13 +411,7 @@ void main(void) {
 }
 </script>
 
-
-
-
-
-</body>
-
-
+<!--------------------------------------------------------------------------------------->
 
 <script>
 // Utilities
@@ -1195,9 +1236,6 @@ window.addEventListener('load', function(e) {
     w['r'+r] = w['r'+r] || w['webkitR'+r] || w['mozR'+r] || w['msR'+r] || w['oR'+r] || function(c){ w.setTimeout(c, 1000 / 60); };
 })(window, 'equestAnimationFrame');
 </script>
-
-
-
 
 
 </html>
