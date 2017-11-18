@@ -15,16 +15,12 @@
 	margin:0 auto; 
 	width:1024px;  
 	border:0px; 
-	padding:20px 0 0 0;
 	} 
 	
 .header_index{
 	height:110px;
+	padding:20px 0 0 0;
 	}
-	
-.header_other{
-	height:50px;
-	}	
 	
 #div_l{
 	float:left;
@@ -44,16 +40,6 @@
 .div_r_index{
 	width:532;
 	padding:64px 0 0 0;
-}
-
-.div_l_other{
-	width:400px;
-	height:50px;
-}
-
-.div_r_other{
-	width:600px;
-	height:50px;
 }
 
 /*菜单动态*/
@@ -145,4 +131,50 @@
 	color:#383838;
 	font-size:16px;
 	line-height:1.2;
+	}
+
+
+.header_other{
+	height:55px;
+	position:fixed;固定作用
+	top:0px;
+	padding:0 0 5px 0;
+	background-color:rgba(200,200,200,0.85);
+	}	
+	
+.div_l_other{
+	width:246px;
+	height:55px;
+	}
+
+.div_r_other{
+	width:auto;
+	height:55px;
+	}
+
+.li_nav{
+	list-style:none;
+	margin:25px 5px 0 5px;
+	float:left;
+	width:120px;
+	height:30px;
+	background:#f06090;
+	line-height:30px;
+	text-align:center;
+	color:#fff;
+	border-radius:10px;
+	box-shadow:1px 1px  1px 0.5px #aaa;
+	}
+
+.li_nav:hover{
+	box-shadow:3px 3px  1px 0.5px #aaa;
+	margin:22px 5px 3px 5px;
+	}
+
+.content{
+	width:1024px;
+	padding:60px 0 0 0;
+	/*height:auto;*/
+	height:3000px;
+	background-color:#4DFF93;
 	}
