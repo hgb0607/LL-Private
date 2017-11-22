@@ -138,13 +138,14 @@
 	line-height:1.2;
 	}
 
+/*其他页面*/
 
 .header_other{
 	height:55px;
 	position:fixed;/*固定作用*/
 	top:0px;
 	padding:0 0 5px 0;
-	background-color:rgba(200,200,200,0.85);
+	background-color:rgba(255,255,255,0.9);
 	}	
 	
 .div_l_other{
@@ -179,9 +180,65 @@
 	/*-------*/
 
 .content{
-	width:1024px;
-	padding:60px 0 0 0;
+	width:1014px;
+	margin:70px 0 0 0;
+	padding:5px;
 	/*height:auto;*/
 	height:3000px;
-	background-color:#4DFF93;
+	background-color:rgba(255,209,231,0.85);
+	border-radius:20px;
 	}
+	
+.div_o1{
+	width:200px;
+	height:500px;
+	float:left;
+	position:fixed;/*固定作用*/
+	top:75px;
+	background-color:#f06090;
+	border-radius:15px;
+	}
+
+.mem_list_title{
+	text-align:center;
+	color:#fff;
+	font-size:24px;
+	margin:10px 0 10px 0;
+	}
+
+.li_member{
+	list-style:none;
+	margin:10px;
+	width:180px;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.div_o2{
+	width:800px;
+	height:500px;
+	float:right;
+	background-color:#69F8FF;
+	border-radius:15px;
+	}
+	
