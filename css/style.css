@@ -35,26 +35,31 @@
 .div_l_index{
 	width:492px;
 	height:110px;
-}
+	}
 
 .div_r_index{
 	width:532;
 	padding:64px 0 0 0;
-}
-
-/*菜单动态*/
-.menu_pic{
-	float:left;
-	width:128px;
-	height:37px;
-	padding:9px 0 0 0;
 	}
 
-.menu_pic:hover{
+/*首页菜单动态*/
+.li_tit{
+	list-style:none;
 	float:left;
-	width:128px;
+	width:126px;
 	height:37px;
-	padding:0 0 9px 0;
+	background:#f06090;
+	line-height:37px;
+	text-align:center;
+	color:#fff;
+	border-radius:15px;
+	box-shadow:1px 1px  1px 0.5px #aaa;
+	margin:9px 1px 0 1px;
+	}
+
+.li_tit:hover{
+	box-shadow:3px 3px  1px 0.5px #aaa;
+	margin:6px 1px 3px 1px;
 	}
 /*-------*/
 
@@ -136,7 +141,7 @@
 
 .header_other{
 	height:55px;
-	position:fixed;固定作用
+	position:fixed;/*固定作用*/
 	top:0px;
 	padding:0 0 5px 0;
 	background-color:rgba(200,200,200,0.85);
@@ -152,6 +157,7 @@
 	height:55px;
 	}
 
+/*导航栏列表*/
 .li_nav{
 	list-style:none;
 	margin:25px 5px 0 5px;
@@ -170,6 +176,7 @@
 	box-shadow:3px 3px  1px 0.5px #aaa;
 	margin:22px 5px 3px 5px;
 	}
+	/*-------*/
 
 .content{
 	width:1024px;
