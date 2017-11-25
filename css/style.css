@@ -212,11 +212,28 @@
 	width:180px;
 	}
 
+/*选中效果*/
+.select{
+	-webkit-filter: contrast(1.0);
+	filter: contrast(1.0);
+	-webkit-filter: brightness(1.0);
+	filter: brightness(1.0);
+	}
 
-
-
-
-
+.select:hover{
+	-webkit-filter: contrast(1.4);
+	filter: contrast(1.4);
+	-webkit-filter: brightness(1.2);
+	filter: brightness(1.2);
+	}
+	
+.selected{
+	-webkit-filter: contrast(1.4);
+	filter: contrast(1.4);
+	-webkit-filter: brightness(1.2);
+	filter: brightness(1.2);
+	}
+/*--------*/
 
 
 
