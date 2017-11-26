@@ -48,18 +48,36 @@
 	float:left;
 	width:126px;
 	height:37px;
-	background:#f06090;
-	line-height:37px;
-	text-align:center;
-	color:#fff;
 	border-radius:15px;
-	box-shadow:1px 1px  1px 0.5px #aaa;
 	margin:9px 1px 0 1px;
 	}
 
 .li_tit:hover{
 	box-shadow:3px 3px  1px 0.5px #aaa;
 	margin:6px 1px 3px 1px;
+	}
+	
+.li_tit_a{
+	text-decoration:none;
+	float:left;
+	width:126px;
+	height:37px;
+	background:#f06090;
+	line-height:37px;
+	text-align:center;
+	color:#fff;
+	border-radius:15px;
+	box-shadow:1px 1px  1px 0.5px #aaa;
+	}
+	
+.li_tit_a:hover{
+	text-decoration:none;
+	color:#fff;
+	}
+
+.li_tit_a:visited{
+	text-decoration:none;
+	color:#fff;
 	}
 /*-------*/
 
