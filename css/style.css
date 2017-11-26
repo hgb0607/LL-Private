@@ -161,7 +161,20 @@
 /*导航栏列表*/
 .li_nav{
 	list-style:none;
+	float:left;
 	margin:25px 5px 0 5px;
+	width:120px;
+	height:30px;
+	border-radius:10px;
+	}
+
+.li_nav:hover{
+	box-shadow:3px 3px  1px 0.5px #aaa;
+	margin:22px 5px 3px 5px;
+	}
+
+.li_nav_a{
+	text-decoration:none;
 	float:left;
 	width:120px;
 	height:30px;
@@ -173,9 +186,14 @@
 	box-shadow:1px 1px  1px 0.5px #aaa;
 	}
 
-.li_nav:hover{
-	box-shadow:3px 3px  1px 0.5px #aaa;
-	margin:22px 5px 3px 5px;
+.li_nav_a:hover{
+	text-decoration:none;
+	color:#fff;
+	}
+	
+.li_nav_a:visited{
+	text-decoration:none;
+	color:#fff;
 	}
 	/*-------*/
 
