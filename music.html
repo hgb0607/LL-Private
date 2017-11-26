@@ -1,0 +1,55 @@
+﻿<index.html>
+	<html>
+	<head>
+		<title>test</title>
+
+    <style type="text/css">
+    .JP-mn {
+	font-family: MS Mincho;
+		}
+	
+	button{border-radius:15px; border:0; width:30px; height:30px; text-align:center; background-color:#FF92B6;}
+    </style>
+
+<script type="text/javascript">
+//<!CDATA[
+var bodyBgs = [];
+bodyBgs[0] = "music/新田恵海 - ぷわぷわーお！.mp3";
+bodyBgs[1] = "music/UNBALANCED LOVE.mp3";
+bodyBgs[2] = "音乐直连地址3";
+bodyBgs[3] = "音乐直连地址4";
+bodyBgs[4] = "音乐直连地址5";
+bodyBgs[5] = "音乐直连地址6";
+var randomBgIndex = Math.round( Math.random() * 1 ); document.write('<audio src=\''+bodyBgs[randomBgIndex]+ '\'autoplay=\'autoplay\' controls preload id="music" hidden></audio>');
+//]]>
+</script>
+
+
+<link href="css/main.css" rel="stylesheet" type="text/css">
+	</head>
+
+	<body>
+<div style="float:right;">
+   
+  <!--audio src="music\新田恵海 - ぷわぷわーお！.mp3" controls preload id="music" hidden>
+  </audio-->
+   <button id="a" onclick="a();"><strong>♬</strong></button>
+   
+   
+  <script>   
+   function a(){
+     var audio = document.getElementById('music'); 
+     if(audio.paused){                 
+         audio.play();//audio.play();// 播放  
+     }
+     else{
+          audio.pause();// 暂停
+     } 
+   }
+</script>
+</div>
+	</body>
+
+
+
+	</html>
