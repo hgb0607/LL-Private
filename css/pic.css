@@ -7,3 +7,9 @@ li{list-style: none;}
 .display ol{position:relative;width: 180px;height: 20px;top:-30px;left:50px;}
 .display ol li{float:left;width: 10px;height: 10px;margin: 5px;background: #fff;}
 .display ol li.seleted{background: #1AA4CA;}
+
+
+.display2{}
+.display2 ol{position:relative;width: 60px;height: 20px;top:-30px;left:80px;}
+.display2 ol li{float:left;width: 10px;height: 10px;margin: 5px;background: #fff;}
+.display2 ol li.seleted{background: #1AA4CA;}
