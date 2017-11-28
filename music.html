@@ -3,20 +3,27 @@
 	<head>
 		<title>music_player</title>
 
-    <style type="text/css">
-    .JP-mn {
-	font-family: MS Mincho;
-		}
-    </style>
-
-<link href="css/main.css" rel="stylesheet" type="text/css">
-<link href="css/music.css" rel="stylesheet" type="text/css">
+		<link href="css/main.css" rel="stylesheet" type="text/css">
+		<link href="css/music.css" rel="stylesheet" type="text/css">
+        
 	</head>
 
 	<body>
     
 <div id="container">
-	<div  id="player">
+
+	<div id="time" style="float:left;">
+	<p id="newTime">当前时间为：</p>
+	</div>
+
+		<script>
+		var time=new Date();
+		var newTime=document.getElementById("newTime");
+		//newTime.firstChild.nodeValue+=time;         
+		setInterval("newTime.innerHTML = new Date().toLocaleString();", 1000);
+		</script>
+
+	<div id="player">
 		<button id="a" style="float:left;"onclick="PlayOrPause();" title="播放/暂停"><strong>♬</strong></button>
 		<audio autoplay controls preload id="music" hidden onEnded="reflash();"></audio>
         <p id="name">暂无音乐</p>
