@@ -1,43 +1,32 @@
 ﻿<index.html>
 	<html>
 	<head>
-		<title>test</title>
+		<title>music_player</title>
 
     <style type="text/css">
     .JP-mn {
 	font-family: MS Mincho;
 		}
-	
-	button{border-radius:15px; border:0; width:30px; height:30px; text-align:center; background-color:#FF92B6;}
     </style>
 
-<script type="text/javascript">
-//<!CDATA[
-var bodyBgs = [];
-bodyBgs[0] = "music/ぷわぷわーお！.mp3";
-bodyBgs[1] = "music/UNBALANCED LOVE.mp3";
-bodyBgs[2] = "music/Listen to my heart!!.mp3";
-bodyBgs[3] = "music/sweet&sweet holiday.mp3";
-bodyBgs[4] = "music/恋のシグナルRin rin rin!.mp3";
-bodyBgs[5] = "music/告白日和、です!.mp3";
-var randomBgIndex = Math.round( Math.random() * 5 ); document.write('<audio src=\''+bodyBgs[randomBgIndex]+ '\'autoplay=\'autoplay\' controls preload id="music" hidden loop></audio>');
-//]]>
-</script>
-
-
 <link href="css/main.css" rel="stylesheet" type="text/css">
+<link href="css/music.css" rel="stylesheet" type="text/css">
 	</head>
 
 	<body>
-<div style="float:right;">
-   
-  <!--audio src="music\新田恵海 - ぷわぷわーお！.mp3" controls preload id="music" hidden>
-  </audio-->
-   <button id="a" onclick="a();"><strong>♬</strong></button>
-   
-   
+    
+<div id="container">
+	<div  id="player">
+		<button id="a" style="float:left;"onclick="PlayOrPause();" title="播放/暂停"><strong>♬</strong></button>
+		<audio autoplay controls preload id="music" hidden onEnded="reflash();"></audio>
+        <p id="name">暂无音乐</p>
+		<button id="b" style="float:right;"onclick="reflash();" title="切换歌曲"><strong>▶</strong></button>
+	</div>  
+</div>
+
+
   <script>   
-   function a(){
+   function PlayOrPause(){
      var audio = document.getElementById('music'); 
      if(audio.paused){                 
          audio.play();//audio.play();// 播放  
@@ -47,7 +36,44 @@ var randomBgIndex = Math.round( Math.random() * 5 ); document.write('<audio src=
      } 
    }
 </script>
-</div>
+
+<script type="text/javascript">
+//<此脚本版权归“hgb0607”所有！[[
+function reflash(){
+var bodyBgs = [];
+bodyBgs[0] = "ぷわぷわーお！";
+bodyBgs[1] = "UNBALANCED LOVE";
+bodyBgs[2] = "Listen to my heart!!";
+bodyBgs[3] = "sweet&sweet holiday";
+bodyBgs[4] = "恋のシグナルRin rin rin!";
+bodyBgs[5] = "告白日和、です!";
+var randomBgIndex = Math.round( Math.random() * 5 );
+//document.write('<audio src=\''+bodyBgs[randomBgIndex]+ '\'autoplay=\'autoplay\' controls preload id="music" hidden loop></audio>');
+function change(randomBgIndex){
+	var str = bodyBgs[randomBgIndex];
+	var audio = document.getElementById('music');
+	//audio.setAttribute('src','music/\''+str+');
+	audio.src = "music/"+str+".mp3";
+	audio.play();
+					}
+	
+	for (var i=0;i < 5 ;i++)
+	{
+		if(randomBgIndex==i)
+			{change(randomBgIndex);
+			//alert(bodyBgs[randomBgIndex]);
+			var p = document.getElementById('name');
+			p.innerHTML=" "+bodyBgs[randomBgIndex]+" ";
+			}
+		else ;
+	}
+}	
+
+reflash();
+//]]>
+</script>
+
+
 	</body>
 
 
