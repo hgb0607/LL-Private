@@ -41,6 +41,7 @@ button{
 	border-width:1px;
 	border-radius:12px;
 	overflow:hidden;
+	margin:0 10px 0 0;
 	}
 
 #player:hover{
