@@ -21,6 +21,16 @@ a:hover{
 	text-decoration: underline;
 	}
 	
+#blue{
+	color:blue;
+	text-decoration:none;
+	}
+
+#blue:hover{
+	text-decoration: underline;
+	}
+		
+	
 hr{
 	height:2px;
 	border:none;
