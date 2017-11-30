@@ -220,8 +220,7 @@
 	width:1014px;
 	margin:70px 0 0 0;
 	padding:5px;
-	/*height:auto;*/
-	height:3000px;
+	height:auto;
 	/*background-color:rgba(255,209,231,0.85);*/
 	border-radius:20px;
 	}
@@ -286,6 +285,7 @@
 	border:#D4D4D4;
 	border-style:solid;
 	border-width:1px;
+	margin:0 0 40px 0;
 	}
 	
 .div_summary1{
@@ -338,8 +338,3 @@
 	text-align:center;
 	}	
 	
-.table{
-	width:480px;
-	height:330px;
-	background-color:#FF8082;
-	}

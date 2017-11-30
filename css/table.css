@@ -1,0 +1,53 @@
+@charset "utf-8";
+
+.table{
+	width:480px;
+	height:330px;
+	}
+
+#member_info{
+	width:480px;
+	height:300px;
+	border: 1px solid #eee;
+	font-size:12px;
+	font-weight:200;
+	}
+
+/*long{line-height:15px;}*/
+
+.td_s{
+	width:90px;
+	/*line-height:30px;*/
+	text-align:center;
+	border: 1px solid #eee;
+	font-weight:400;
+	}
+
+.td_l{
+	width:150px;
+	/*line-height:30px;*/
+	text-align:center;
+	border: 1px solid #eee;
+	font-weight:200;
+	}
+	
+.tr_1{
+	height:30px;
+	background-color:#fff;
+	border: 1px solid #eee;
+	}
+	
+.tr_2{
+	height:30px;
+	border: 1px solid #eee;
+	}
+	
+.eli{background-color:#d7f8ff;}
+.hanayo{background-color:#cdff9e;}
+.honoka{background-color:#ffbb67;}
+.kotori{background-color:#c8c8c8;}
+.maki{background-color:#f78383;}
+.nico{background-color:#ff87af;}
+.nozomi{background-color:#d9bbf7;}
+.rin{background-color:#f5ef5a;}
+.umi{background-color:#7bb6ff;}
