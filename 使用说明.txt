@@ -1,0 +1,17 @@
+﻿1.推荐访问index.html获得更好的浏览体验（需要浏览器支持frameset框架）
+
+2.若浏览器不支持frameset框架：
+	a.可在index.html无框架页面中点击“普通版”跳转（index）.html
+	b.直接访问该目录下的（index）.html
+
+3.目录中music.html作为背景音乐播放网页在index.html中使用。
+
+4.关于frame.html：
+	(a).原设计是使用frameset框架制作网页背景音乐时，music.html作为顶部导航栏的音乐播放控制。但由于在frame.html中点击访问首页时会出现排版出错，故已放弃使用。
+	(b).在(a)中所述的错误欢迎各位提出相关的修改建议，作者本人也将会在后期不断修改跟新。
+
+5.本网页的内容将使用github pages技术在 https://hgb0607.github.io/LL-Private/ 中不断更新。
+
+6.在下载之前请先阅读《版权注意事项》。（以记事本打开README.md文件，或访问 https://github.com/hgb0607/LL-Private ）
+
+7.在 https://github.com/hgb0607/LL-Private 中可下载所有代码和查看所有的历史修改记录

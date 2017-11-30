@@ -1,7 +1,7 @@
 ﻿# LL-Private
 Personal website-about "Love Live" 
 
-注意事项：
+版权注意事项：
 1.此页面内容版权归github用户：hgb0607所有；
 2.此页面内容只能用于个人兴趣爱好收集和个人html静态网页设计交流；
 3.此页面的部分内容（部分html、css、部分图片）为原创。如引用需声明引用来源。
